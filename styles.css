@@ -72,14 +72,12 @@
     background-color: antiquewhite;
 }
 
-#screen>div {
-    background-color: white;
-    border: 1px solid black;
+.pixel {
     height: 20px;
     width: 20px;
 }
 
-#screen>div:nth-child(37n + 1) {
+.pixel:nth-last-child(37n + 1) {
     width: 100%;
     border: 0;
     height: 0;
