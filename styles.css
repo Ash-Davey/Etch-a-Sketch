@@ -15,14 +15,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 10px;
     text-align: center;
     background-color: rgba(255, 0, 0, .1);
     color: rgb(255, 0, 0);
     font-weight: bold;
     width: 780px;
-    height: 100px;
-    border-radius: 20px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.info > p {
+    padding: 5px;
 }
 
 .container {
@@ -69,7 +74,7 @@
     justify-content: space-between;
 }
 
-.left, .right {
+#left, #right {
     height: 60px;
     width: 60px;
     background-color: white;
@@ -94,14 +99,3 @@
     background-color: gainsboro;
 }
 
-.pixel {
-    height: 20px;
-    width: 20px;
-    border: 1px solid black;
-}
-
-.pixel:nth-last-child(37n + 1) {
-    width: 100%;
-    border: 0;
-    height: 0;
-  }
